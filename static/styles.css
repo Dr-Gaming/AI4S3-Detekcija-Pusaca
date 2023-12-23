@@ -1,0 +1,50 @@
+/* Add a global font and center text */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Verdana', sans-serif; /* Changed to Verdana */
+  text-align: center;
+  color: #333; /* Dark text color for visibility on light background */
+}
+
+/* Set the background image */
+body {
+  background-image: url('Pozadina.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Style the container for the upload form and result */
+.container {
+  border: 2px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7); /* Translucent white background */
+  display: inline-block;
+}
+
+/* Style the file input and submit button */
+input[type=file], input[type=submit] {
+  border: 1px solid #aaa; /* Light gray border */
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer; /* Re-style the cursor to indicate a clickable area */
+  font-size: 16px;
+}
+
+input[type=submit] {
+  background-color: #4285f4; /* A blue background for the submit button */
+  color: white;
+}
+
+/* Add some padding and a max-width to your images */
+img {
+  max-width: 90%; /* Limit the size of the image */
+  border: 1px solid #ddd; /* Add a border around your images */
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+}
